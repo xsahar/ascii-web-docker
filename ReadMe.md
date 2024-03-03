@@ -32,4 +32,3 @@ The ASCII Art Web Stylize project is a web application that enables users to cre
 
 - [@sahahmed](https://learn.reboot01.com/git/sahahmed)
 - [@bisa](https://learn.reboot01.com/git/bisa)
-- [@fkhatoon](https://learn.reboot01.com/git/fkhatoon)
