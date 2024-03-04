@@ -2,25 +2,26 @@
 
 ## Project Description
 
-The ASCII Art Web Stylize project is a web application that enables users to create artistic ASCII representations of input text. With a user-friendly web interface, users can input text, choose from various banner styles, and generate visually appealing ASCII art.
+The ASCII Art Dockerizer project is a containerized version of the ASCII Art Web application. It packages all the necessary components, dependencies, and configurations into a Docker image, making it portable and easy to deploy. Docker provides benefits such as portability, isolation, scalability, versioning, and simplified deployment, allowing the ASCII Art Web application to run consistently across different environments.
 
 ## Features
-- Web GUI: The project features a web-based graphical user interface accessible through a browser.
 
-- ASCII Art Generation: The application transforms user input text into ASCII art using selected banner styles.
+- Containerization: The ASCII Art Docker project packages the ASCII Art Web application into a Docker container, ensuring portability, isolation, and consistent execution across different environments.
 
-- Banner Styles: Users can choose from different banner styles, including "Standard," "Shadow," and "Thinkertoy."
+- Scalability and Deployment: By leveraging Docker, the project enables horizontal scaling and simplified deployment of the ASCII Art Web application, allowing for efficient load balancing and easy distribution across Docker-supported hosts.
+
+- Versioning and Management: Docker's versioning capabilities facilitate easy management and tracking of different releases of the ASCII Art Docker project, enabling seamless updates and rollbacks when needed.
 
 ## Usage
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://learn.reboot01.com/git/sahahmed/ascii-art-web-stylize.git
-   cd ascii-art-web-stylize
+   https://learn.reboot01.com/git/sahahmed/ascii-art-web-dockerize
+   cd ascii-art-web-dockerize
     ```
-2. **Run the Server:**
+2. **Run docker:**
      ```bash
-    $ go run main.go
+   sh ./test.sh 
     ```
 
 3. **Access the Web Interface:**
