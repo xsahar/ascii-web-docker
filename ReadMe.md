@@ -12,6 +12,9 @@ The ASCII Art Dockerizer project is a containerized version of the ASCII Art Web
 
 - Versioning and Management: Docker's versioning capabilities facilitate easy management and tracking of different releases of the ASCII Art Docker project, enabling seamless updates and rollbacks when needed.
 
+## installation
+Ensure that Docker is installed on your computer. If it isn't already, you can download and install it from the official Docker website. Once Docker is installed, ensure that you also install the Docker extension in your Visual Studio Code (VSCode) editor.
+
 ## Usage
 
 1. **Clone the Repository:**
@@ -21,13 +24,16 @@ The ASCII Art Dockerizer project is a containerized version of the ASCII Art Web
     ```
 2. **Run docker:**
      ```bash
-   sh ./test.sh 
+    Run the following command: sh ./test.sh 
     ```
-
 3. **Access the Web Interface:**
     ```bash
     access the web page by clicking on Server started at http://localhost:8000/ ,and it will take you directly to the webpage.
     ```
+
+## Cleanup
+
+It's essential to be cautious of unused objects, commonly referred to as "garbage collection." To address this, the project incorporates a executable file called clean.sh, designed specifically to handle any unused images and containers. This allows for efficient management and cleanup of resources that are no longer needed.
 
 ## Authors
 
