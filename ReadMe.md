@@ -12,7 +12,7 @@ The ASCII Art Dockerizer project is a containerized version of the ASCII Art Web
 
 - Versioning and Management: Docker's versioning capabilities facilitate easy management and tracking of different releases of the ASCII Art Docker project, enabling seamless updates and rollbacks when needed.
 
-## installation
+## Installation
 Ensure that Docker is installed on your computer. If it isn't already, you can download and install it from the official[ hhtp://Docker website](https://docs.docker.com/engine/install/ubuntu/). Once Docker is installed, ensure that you also install the Docker extension in your Visual Studio Code (VSCode) editor.
 
 ## Usage
